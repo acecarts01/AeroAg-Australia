@@ -1,11 +1,41 @@
-<div align="center">
+# AeroAg Australia - Turnkey Agricultural Drones
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+B2B agricultural drone supplier for Australian farmers. High-performance spraying, spreading, and multispectral mapping systems.
 
-  <h1>Built with AI Studio</h2>
+## Deployment Steps (GitHub + Vercel)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+1. **GitHub Setup**
+   - Create a new empty GitHub repository.
+   - Run the following in your terminal:
+     ```bash
+     git init
+     git remote add origin https://github.com/[username]/[repo-name].git
+     git add .
+     git commit -m "Initial build — AeroAg Australia v1.0"
+     git push -u origin main
+     ```
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+2. **Vercel Deployment**
+   - Go to [vercel.com](https://vercel.com) → Add New Project.
+   - Import the repository.
+   - **CRITICAL:** Framework Preset = "Next.js".
+   - (Optional) Configure SMTP env vars for `/api/lead/` if not using Web3Forms.
+   - Deploy.
 
-</div>
+## Post-Deploy Verification
+
+- **Domain:** Update `config/site.js` if the domain was pending.
+- **Forms:** Test the lead form at `/dji-agras-t50/#quote`.
+- **SEO:** Verify `sitemap.xml` and `robots.txt` are accessible.
+- **AI-Ready:** Check `/llms.txt` for agent readability.
+
+## Verify Before Launch Checklist
+
+- [ ] Confirm T50/T40/T25/M3M specs against DJI official product pages.
+- [ ] Verify current CASA requirements for aircraft over 25 kg.
+- [ ] Check state-based chemical licensing rules for QLD, VIC, NSW, WA, SA, TAS, and NT.
+- [ ] Confirm advertised package pricing aligns with supplier agreements and margins.
+- [ ] Verify the indicative finance rate used in the calculator matches current market offers.
+
+---
+Built with WebForge v9.1

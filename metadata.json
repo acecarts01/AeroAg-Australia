@@ -1,0 +1,8 @@
+{
+  "name": "AeroAg Australia",
+  "description": "B2B agricultural drone supplier for Australian farmers. Turnkey spray and mapping drone packages.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

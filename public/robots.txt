@@ -1,0 +1,22 @@
+User-agent: *
+Disallow: /thank-you/
+Disallow: /api/
+Sitemap: https://www.aeroag.com.au/sitemap.xml
+
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+
+# AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
